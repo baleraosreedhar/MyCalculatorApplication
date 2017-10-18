@@ -1,0 +1,66 @@
+﻿@model BirthdayCelebration
+@{
+    ViewData["Title"] = "About";
+}
+<h2>@ViewData["Title"].</h2>
+<h3>@ViewData["Message"]</h3>
+
+<p>Demo for Service fabric.</p>
+<p> Stateless service : A .net core web application acts as UI</p>
+<p> Statefull service : a .NET core statefull service developed with Reliable service framework for developing microservices with DNS names ,hosted on various paritiotns</p>
+
+<form asp-action="About" asp-controller="Home">
+    <label asp-for="Birthday"></label>
+    <input asp-for="Birthday" placeholder="Enter Birthdate" />
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Calculate" class="btn btn-default" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="BirthdayOfWeek" class="col-md-2 control-label"></label>
+        <div class="col-md-10">
+            <input asp-for="BirthdayOfWeek" class="form-control" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="AgeOfPerson" class="col-md-2 control-label"></label>
+        <div class="col-md-10">
+            <input asp-for="AgeOfPerson" class="form-control" readonly="readonly" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="GoodThought" class="col-md-2 control-label"></label>
+        <div class="col-md-10">
+            <input asp-for="GoodThought" class="form-control" readonly="readonly" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="CountOfGoodThought" class="col-md-2 control-label"></label>
+        <div class="col-md-10">
+            <input asp-for="CountOfGoodThought" class="form-control" readonly="readonly" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="AgeOfPerson" class="col-md-2 control-label"></label>
+        <div class="col-md-10">
+            <input asp-for="AgeOfPerson" class="form-control" readonly="readonly" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="AgeGroup" class="col-md-2 control-label"></label>
+        <div class="col-md-10">
+            <input asp-for="AgeGroup" class="form-control" readonly="readonly" />
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="ExceptionMessage" class="col-md-2 control-label"></label>
+        <div class="col-md-10">
+            <input asp-for="ExceptionMessage" class="form-control" readonly="readonly" />
+
+        </div>
+    </div>
+</form>
+

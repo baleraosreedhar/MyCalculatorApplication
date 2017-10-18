@@ -1,0 +1,60 @@
+﻿@model BirthdayCelebration
+@{
+    ViewData["Title"] = "Processed";
+}
+<h2>@ViewData["Title"].</h2>
+<h3>@ViewData["Message"]</h3>
+
+<p>Demo for Service fabric.</p>
+<p> A .net core web application acts as UI, has called birthday age service an statefull service to get the birthday details, which in turn has called the Count service to calculate the count of words in the good thought.</p>
+
+<div class="form-group">
+    <label asp-for="Birthday" class="col-md-2 control-label"></label>
+    <div class="col-md-10">
+        <input asp-for="Birthday" class="form-control" />
+    </div>
+</div>
+<div class="form-group">
+    <label asp-for="BirthdayOfWeek" class="col-md-2 control-label"></label>
+    <div class="col-md-10">
+        <input asp-for="BirthdayOfWeek" class="form-control" />
+    </div>
+</div>
+<div class="form-group">
+    <label asp-for="AgeOfPerson" class="col-md-2 control-label"></label>
+    <div class="col-md-10">
+        <input asp-for="AgeOfPerson" class="form-control" />
+    </div>
+</div>
+<div class="form-group">
+    <label asp-for="GoodThought" class="col-md-2 control-label"></label>
+    <div class="col-md-10">
+        <input asp-for="GoodThought" class="form-control" />
+    </div>
+</div>
+<div class="form-group">
+    <label asp-for="CountOfGoodThought" class="col-md-2 control-label"></label>
+    <div class="col-md-10">
+        <input asp-for="CountOfGoodThought" class="form-control" />
+    </div>
+</div>
+<div class="form-group">
+    <label asp-for="AgeOfPerson" class="col-md-2 control-label"></label>
+    <div class="col-md-10">
+        <input asp-for="AgeOfPerson" class="form-control" />
+    </div>
+</div>
+<div class="form-group">
+    <label asp-for="AgeGroup" class="col-md-2 control-label"></label>
+    <div class="col-md-10">
+        <input asp-for="AgeGroup" class="form-control" />
+
+    </div>
+</div>
+<div class="form-group">
+    <label asp-for="ExceptionMessage" class="col-md-2 control-label"></label>
+    <div class="col-md-10">
+        <input asp-for="ExceptionMessage" class="form-control" />
+
+    </div>
+</div>

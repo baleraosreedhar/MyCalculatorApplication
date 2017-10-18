@@ -1,0 +1,1 @@
+C:\Sreedhar\NET CORE\MyCalculatorApplication\MyCalculatorApplication\obj\x64\Release\MyCalculatorApplication.sfproj.CoreCompileInputs.cache
