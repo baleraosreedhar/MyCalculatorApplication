@@ -10293,11 +10293,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Sreedhar\\NET CORE\\MyAzureServiceFabric\\src\\TechnicBirthdayAgeService\\TechnicBirthdayAgeService.csproj",
+      "projectUniqueName": "C:\\Sreedhar\\NET CORE\\MyPOC\\src\\TechnicBirthdayAgeService\\TechnicBirthdayAgeService.csproj",
       "projectName": "TechnicBirthdayAgeService",
-      "projectPath": "C:\\Sreedhar\\NET CORE\\MyAzureServiceFabric\\src\\TechnicBirthdayAgeService\\TechnicBirthdayAgeService.csproj",
+      "projectPath": "C:\\Sreedhar\\NET CORE\\MyPOC\\src\\TechnicBirthdayAgeService\\TechnicBirthdayAgeService.csproj",
       "packagesPath": "C:\\Users\\sbalerao\\.nuget\\packages\\",
-      "outputPath": "C:\\Sreedhar\\NET CORE\\MyAzureServiceFabric\\src\\TechnicBirthdayAgeService\\obj\\",
+      "outputPath": "C:\\Sreedhar\\NET CORE\\MyPOC\\src\\TechnicBirthdayAgeService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
