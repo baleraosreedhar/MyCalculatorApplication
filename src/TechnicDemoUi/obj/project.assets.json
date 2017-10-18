@@ -10902,11 +10902,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Sreedhar\\NET CORE\\MyAzureServiceFabric\\src\\TechnicDemoUi\\TechnicDemoUi.csproj",
+      "projectUniqueName": "C:\\Sreedhar\\NET CORE\\MyPOC\\src\\TechnicDemoUi\\TechnicDemoUi.csproj",
       "projectName": "TechnicDemoUi",
-      "projectPath": "C:\\Sreedhar\\NET CORE\\MyAzureServiceFabric\\src\\TechnicDemoUi\\TechnicDemoUi.csproj",
+      "projectPath": "C:\\Sreedhar\\NET CORE\\MyPOC\\src\\TechnicDemoUi\\TechnicDemoUi.csproj",
       "packagesPath": "C:\\Users\\sbalerao\\.nuget\\packages\\",
-      "outputPath": "C:\\Sreedhar\\NET CORE\\MyAzureServiceFabric\\src\\TechnicDemoUi\\obj\\",
+      "outputPath": "C:\\Sreedhar\\NET CORE\\MyPOC\\src\\TechnicDemoUi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
