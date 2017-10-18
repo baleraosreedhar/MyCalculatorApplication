@@ -1,0 +1,28 @@
+﻿{
+  "Serilog": {
+    // Log levels include:
+    //     Verbose, Debug, Information, Warning, Error, Fatal
+    "MinimumLevel": "Information",
+    "WriteTo": [
+      {
+        // Color-coded structured logging to console
+        "Name": "LiterateConsole",
+        "Args": {
+          // The optional outputTemplate defines the format of logged messages and provides
+          // a way to log additional fields (like ASP.NET Core's RequestId) which may not
+          // be included in default message templates.
+          "outputTemplate": "{Timestamp:HH:mm:ss} {Level} | {RequestId} - {Message}{NewLine}{Exception}"
+        }
+      }
+      ////{
+      ////  // Logging to ElasticSearch
+      ////  // Note that Name is case-sensitive
+      ////  "Name": "Elasticsearch",
+      ////  "Args": {
+      ////    "nodeUris": "http://myElasticsearchServer:9200",
+      ////    "indexFormat": "myIndex-{0:yyyy.MM}"
+      ////  }
+      ////}
+    ]
+  }
+}

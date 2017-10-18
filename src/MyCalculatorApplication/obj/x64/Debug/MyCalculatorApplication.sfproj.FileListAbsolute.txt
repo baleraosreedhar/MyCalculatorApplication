@@ -1,0 +1,2 @@
+C:\Sreedhar\NET CORE\MyCalculatorApplication\MyCalculatorApplication\obj\x64\Debug\MyCalculatorApplication.sfproj.CoreCompileInputs.cache
+C:\Sreedhar\NET CORE\MyAzureServiceFabric\src\MyCalculatorApplication\obj\x64\Debug\MyCalculatorApplication.sfproj.CoreCompileInputs.cache

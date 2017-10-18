@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Processed request";
+}
+<h2>@ViewData["Title"].</h2>
+<h3>@ViewData["Message"]</h3>
+
+<p>Demo for Service fabric.</p>
+<p> Stateless service : A .net core web application acts as UI</p>
+<p> Statefull service : a .NET core statefull service developed with Reliable service framework for developing microservices with DNS names ,hosted on various paritiotns</p>
+
+<form asp-action="About" asp-controller="Home">
+    @*<label asp-for="Birthday"></label>*@
+    <label id="birthdayDateLable" title="Birthdate">birthdayDate</label>
+    <input title="Birthday" name="birthdayDate" id="birthdayDate" />
+    
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Calculate" class="btn btn-default" />
+        </div>
+    </div>
+    </form>

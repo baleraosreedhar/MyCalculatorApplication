@@ -1,0 +1,14 @@
+﻿@model List<ParitionCollection>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1> Service Fabric Demo</h1>
+<img src="~/images/ServiceFabricDemo.png" title="Service Fabric topology" />
+<p> Application logs are written to Azure table storage.</p>
+<h1>Values Controller Get URI Documentation: <a href=@ViewData["ValuesAction"]>Values Controller</a></h1>
+<h1>Values Controller Get URI Documentation: <a href=@ViewData["ValuesActionWithPartiotionKey"]>Values Controller</a></h1>
+
+<h1>Swagger URI Documentation: <a href=@ViewData["CalculatorServiceSwagger"]>Swagger</a></h1>
+<h1>Swagger URI Documentation: <a href=@ViewData["CalculatorServiceSwaggerUI"]>SwaggerUI</a></h1>
+<h2> @ViewData["partitionCollections"]</h2>
